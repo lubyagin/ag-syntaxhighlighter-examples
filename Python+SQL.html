@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Hello SyntaxHighlighter</title>
+	<script type="text/javascript" src="scripts/shCore.js"></script>
+	<script type="text/javascript" src="scripts/shBrushPython.js"></script>
+	<script type="text/javascript" src="scripts/shBrushSql.js"></script>
+	<link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body style="background: white; font-family: Helvetica">
+
+<h1>Python+SQL</h1>
+
+<pre class="brush: python;">
+import sys
+print "Abc"
+sys.exit()
+</pre>
+
+<pre class="brush: sql;">
+SELECT t.A_ID
+FROM TEST t
+WHERE t.A_ID IN (1,2)
+  AND t.DESCR LIKE '%abc%'
+</pre>
+
+</html>
